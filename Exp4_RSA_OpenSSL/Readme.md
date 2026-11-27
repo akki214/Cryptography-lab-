@@ -15,6 +15,7 @@ Anyone can encrypt data using the public key, but only the owner of the private 
 Note: RSA is generally used to encrypt small a 
 
 Procedure 
+
 Step 1: Verify OpenSSL Installation 
 
 Step 2: Generate RSA Private Key (2048-bit) 
