@@ -1,2 +1,26 @@
-Aim: Develop an application to secure text messages using AES encryption and SHA-256 hashing using VS Code. Tools: VS Code THEORY AES (Advanced Encryption Standard): AES is a symmetric-key encryption algorithm that uses the same secret key for encryption and decryption. In this experiment, AES-256-GCM is used to provide confidentiality and authentication of encrypted data. SHA-256 (Secure Hash Algorithm 256-bit): SHA-256 is a cryptographic hash function that generates a fixed-length 256-bit (32-byte) digest from input data. Even a small change in the message generally produces a different hash. AES-GCM: Galois/Counter Mode provides authenticated encryption. It uses a secret key and a unique initialization vector (IV) for each encryption under that key. Procedure 1. Start the program. 2. Define the original text message. 3. Generate a random 256-bit AES key. 4. Generate a random 12-byte initialization vector. 5. Encrypt the message using AES-256-GCM. 6. Display the encrypted ciphertext in Base64 format. 7. Decrypt the ciphertext using the same key and IV. 8. Generate the SHA-256 hash of the original message. 9. Modify the message and calculate its SHA-256 hash. 10. Compare both hashes to demonstrate message integrity. 11. Display the results and terminate the program. 
-Result The Java program successfully demonstrates AES-256-GCM encryption and decryption and SHA-256 hashing. The experiment illustrates how authenticated encryption protects message confidentiality and detects ciphertext tampering, while hash comparison demonstrates how changes in a message can be detected
+Aim: 
+
+Develop an application to secure text messages using AES encryption and SHA-256 hashing using VS Code. 
+
+Tools: VS Code 
+
+THEORY 
+
+AES (Advanced Encryption Standard): AES is a symmetric-key encryption algorithm that uses the same secret key for encryption and decryption. In this experiment, AES-256-GCM is used to provide confidentiality and authentication of encrypted data. SHA-256 (Secure Hash Algorithm 256-bit): SHA-256 is a cryptographic hash function that generates a fixed-length 256-bit (32-byte) digest from input data. Even a small change in the message generally produces a different hash. AES-GCM: Galois/Counter Mode provides authenticated encryption. It uses a secret key and a unique initialization vector (IV) for each encryption under that key.
+
+Procedure 
+1. Start the program.
+2. Define the original text message.
+3. Generate a random 256-bit AES key.
+4. Generate a random 12-byte initialization vector.
+5. Encrypt the message using AES-256-GCM.
+6. Display the encrypted ciphertext in Base64 format.
+7. Decrypt the ciphertext using the same key and IV.
+8. Generate the SHA-256 hash of the original message.
+9. Modify the message and calculate its SHA-256 hash.
+10. Compare both hashes to demonstrate message integrity.
+11. Display the results and terminate the program. 
+
+Result
+
+The Java program successfully demonstrates AES-256-GCM encryption and decryption and SHA-256 hashing. The experiment illustrates how authenticated encryption protects message confidentiality and detects ciphertext tampering, while hash comparison demonstrates how changes in a message can be detected
